@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.3s ease-in-out;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Ensures everything inside is centered */
+}
+
+input, select, button {
+  width: 100%; /* Ensures elements are full width inside the container */
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  text-align: center; /* Centers placeholder text */
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.calculate {
+  background-color: #28a745;
+}
+
+button.calculate:hover {
+  background-color: #1e7e34;
+}
+
+.result {
+  margin-top: 15px;
+  font-size: 18px;
+}
